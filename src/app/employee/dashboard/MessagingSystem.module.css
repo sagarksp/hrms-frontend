@@ -1,0 +1,81 @@
+/* components/MessagingSystem.module.css */
+.messagingSystem {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.messageIcon {
+  background-color: #25D366; /* WhatsApp green */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.messagingInterface {
+  width: 350px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout {
+  height: 100%;
+  background: #fff;
+}
+
+.header {
+  background-color: #a3cef1; /* WhatsApp header color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: #ECE5DD; /* WhatsApp background color */
+}
+
+.inputArea {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.messageContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.messageContent p {
+  margin: 0;
+}

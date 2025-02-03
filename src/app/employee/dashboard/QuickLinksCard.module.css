@@ -1,0 +1,53 @@
+/* 
+.quickLinksCard {
+    background-color: #f0f0f0; 
+    color: #333; 
+} */
+  
+.card {
+    background-color: #ffe5ec ; /* Light background color */
+    color: #333; /* Dark text color */
+}
+
+.link {
+    color: #fb6f92; /* Dark text color */
+    font-size: 12px; /* Small font size */
+}
+
+.link2 {
+    color: #5a189a;
+    font-size: 12px; /* Small font size */
+}
+
+.card2 {
+    background-color: #e0aaff ; /* Light background color */
+}
+
+.link3 {
+    color: #52b788;
+    font-size: 12px; /* Small font size */
+}
+
+.card3 {
+    background-color: #d8f3dc;
+}
+
+.link4 {
+    color: #774936;
+    font-size: 12px; /* Small font size */
+}
+
+.card4 {
+    background-color: #edc4b3;
+}
+
+
+.card5 {
+    background-color: #d0e4f7; /* Light blue background color */
+}
+
+.link5 {
+    color: #1e3a8a; /* Dark blue text color */
+    font-size: 12px; /* Small font size */
+}
+
